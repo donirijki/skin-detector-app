@@ -26,9 +26,17 @@ static/logs/*
 !static/logs/vgg16_confusion_matrix.png
 !static/logs/vgg16_training_plot.png
 
-outputs/
-reports/
-external_test/
+outputs/*
+!outputs/predictions_log.csv
+
+reports/*
+!reports/laporan_prediksi_doni.txt
+
+# Keep empty folder for storing predicted images
+external_test/*
+!external_test/melanoma/
+!external_test/psoriasis/
+
 
 # Jupyter / editor artifacts
 .ipynb_checkpoints/
