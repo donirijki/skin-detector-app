@@ -70,7 +70,8 @@ Aplikasi ini dirancang untuk membantu klasifikasi gambar kulit menjadi **Melanom
 
 ### Cara Menggunakan Aplikasi:
 
-1. **Isi Identitas Pengguna**  
+1. **Isi Identitas Pengguna** 
+   Harap isi terlebih dahulu! 
    Masukkan nama, usia, dan jenis kelamin pada formulir di bawah untuk keperluan dokumentasi dan log prediksi.
 
 2. **Prediksi Gambar Kulit**  
@@ -94,8 +95,8 @@ Aplikasi ini dirancang untuk membantu klasifikasi gambar kulit menjadi **Melanom
     st.subheader("Formulir Identitas Pengguna")
     with st.form("user_info_form"):
         name = st.text_input("Nama Lengkap")
-        age = st.number_input("Usia", min_value=0, max_value=120, value=25)
-        gender = st.selectbox("Jenis Kelamin", ["Laki-laki", "Perempuan", "Lainnya"])
+        age = st.number_input("Usia", min_value=0, max_value=120, value=0)
+        gender = st.selectbox("Jenis Kelamin", ["", "Laki-laki", "Perempuan", "Lainnya"], index=0)
         submitted = st.form_submit_button("Simpan")
 
         if submitted:
