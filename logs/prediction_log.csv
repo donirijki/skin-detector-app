@@ -1,0 +1,102 @@
+image_path,image_name,predicted_label,confidence
+external_test\psoriasis\1753111217_2760.jpg,1753111217_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753111378_genital-psoriasis-01.jpg,1753111378_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+external_test\psoriasis\1753111382_genital-psoriasis-01.jpg,1753111382_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+external_test\psoriasis\1753111431_genital-psoriasis-04.jpg,1753111431_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+external_test\psoriasis\1753111440_genital-psoriasis-04.jpg,1753111440_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+external_test\psoriasis\1753111669_3260.jpg,1753111669_3260.jpg,psoriasis,0.9998329877853394
+external_test\psoriasis\1753111672_3260.jpg,1753111672_3260.jpg,psoriasis,0.9998329877853394
+external_test\psoriasis\1753111792_plaque-psoriasis-skin-of-colour-00001.jpg,1753111792_plaque-psoriasis-skin-of-colour-00001.jpg,psoriasis,0.999998927116394
+external_test\psoriasis\1753111830_2760.jpg,1753111830_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753111842_2760.jpg,1753111842_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753112307_2760.jpg,1753112307_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753112334_genital-psoriasis-01.jpg,1753112334_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+external_test\melanoma\1753112354_ISIC_0000009.jpg,1753112354_ISIC_0000009.jpg,melanoma,0.8170720934867859
+external_test\melanoma\1753112375_ISIC_0000008.jpg,1753112375_ISIC_0000008.jpg,melanoma,0.9997336268424988
+external_test\melanoma\1753112406_ISIC_0000007.jpg,1753112406_ISIC_0000007.jpg,melanoma,0.6808472275733948
+external_test\psoriasis\1753112430_genital-psoriasis-04.jpg,1753112430_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+external_test\psoriasis\1753112467_3260.jpg,1753112467_3260.jpg,psoriasis,0.9998329877853394
+external_test\psoriasis\1753112487_plaque-psoriasis-skin-of-colour-00001.jpg,1753112487_plaque-psoriasis-skin-of-colour-00001.jpg,psoriasis,0.999998927116394
+external_test\psoriasis\1753112509_ISIC_0000006.jpg,1753112509_ISIC_0000006.jpg,psoriasis,0.5804305672645569
+external_test\melanoma\1753112523_ISIC_0000005.jpg,1753112523_ISIC_0000005.jpg,melanoma,0.8274834156036377
+external_test\melanoma\1753112603_shd96zei.png,1753112603_shd96zei.png,melanoma,0.8695290684700012
+external_test\psoriasis\1753112648_2760.jpg,1753112648_2760.jpg,psoriasis,1.0
+external_test\melanoma\1753112658_ISIC_0000009.jpg,1753112658_ISIC_0000009.jpg,melanoma,0.8170720934867859
+external_test\melanoma\1753112666_ISIC_0000005.jpg,1753112666_ISIC_0000005.jpg,melanoma,0.8274834156036377
+external_test\melanoma\1753112679_ISIC_0000008.jpg,1753112679_ISIC_0000008.jpg,melanoma,0.9997336268424988
+external_test\melanoma\1753112694_ISIC_0000007.jpg,1753112694_ISIC_0000007.jpg,melanoma,0.6808472275733948
+external_test\psoriasis\1753112727_genital-psoriasis-01.jpg,1753112727_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+external_test\psoriasis\1753112736_genital-psoriasis-04.jpg,1753112736_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+external_test\psoriasis\1753112749_plaque-psoriasis-skin-of-colour-00001.jpg,1753112749_plaque-psoriasis-skin-of-colour-00001.jpg,psoriasis,0.999998927116394
+external_test\psoriasis\1753112817_3260.jpg,1753112817_3260.jpg,psoriasis,0.9998329877853394
+external_test\psoriasis\1753112933_Generalized-pustular-psoriasis-GPP_MI_01B0W1J0-2048x1360.jpg,1753112933_Generalized-pustular-psoriasis-GPP_MI_01B0W1J0-2048x1360.jpg,psoriasis,0.9999996423721313
+external_test\psoriasis\1753112942_psoriasis-2.jpg,1753112942_psoriasis-2.jpg,psoriasis,0.9999908208847046
+external_test\psoriasis\1753112950_Pictures-of-psoriasis-on-face.jpg,1753112950_Pictures-of-psoriasis-on-face.jpg,psoriasis,0.9993927478790283
+external_test\psoriasis\1753112957_psoriasis-GettyImages-1095587050-42ed6d9d90ae454abba9f0f1cabeb78e.jpg,1753112957_psoriasis-GettyImages-1095587050-42ed6d9d90ae454abba9f0f1cabeb78e.jpg,psoriasis,0.9961906671524048
+external_test\melanoma\1753112967_melanoma_0602_superficial_spreading_melanoma_2.jpg,1753112967_melanoma_0602_superficial_spreading_melanoma_2.jpg,melanoma,0.9929441809654236
+external_test\melanoma\1753113056_Invasive+Nodal+Melanoma+Picture.jpeg,1753113056_Invasive+Nodal+Melanoma+Picture.jpeg,melanoma,0.989557683467865
+external_test\melanoma\1753113130_642x361_SLIDE_4_Nodular_Melanoma.jpg,1753113130_642x361_SLIDE_4_Nodular_Melanoma.jpg,melanoma,0.829617440700531
+external_test\melanoma\1753113231_melanoma-4unspecified-e1453370627851-768x901.jpg,1753113231_melanoma-4unspecified-e1453370627851-768x901.jpg,melanoma,0.9983091354370117
+external_test\melanoma\1753113396_R.jpeg,1753113396_R.jpeg,melanoma,0.5410961508750916
+external_test\psoriasis\1753113471_iStock-1137585950-1-1024x683.jpg,1753113471_iStock-1137585950-1-1024x683.jpg,psoriasis,0.9999297857284546
+external_test\psoriasis\1753118859_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,1753118859_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+external_test\psoriasis\1753118876_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,1753118876_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+external_test\psoriasis\1753118944_iStock-1137585950-1-1024x683.jpg,1753118944_iStock-1137585950-1-1024x683.jpg,psoriasis,0.9999297857284546
+external_test\melanoma\1753119631_R.jpeg,1753119631_R.jpeg,melanoma,0.5410961508750916
+external_test\psoriasis\1753119642_ISIC_0000006.jpg,1753119642_ISIC_0000006.jpg,psoriasis,0.5804305672645569
+external_test\psoriasis\1753119653_psoriasis-2.jpg,1753119653_psoriasis-2.jpg,psoriasis,0.9999908208847046
+external_test\melanoma\1753119665_ISIC_0000009.jpg,1753119665_ISIC_0000009.jpg,melanoma,0.8170720934867859
+external_test\psoriasis\1753120280_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,1753120280_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+external_test\melanoma\1753120336_melanoma_0602_superficial_spreading_melanoma_2.jpg,1753120336_melanoma_0602_superficial_spreading_melanoma_2.jpg,melanoma,0.9929441809654236
+external_test\psoriasis\1753120708_genital-psoriasis-01.jpg,1753120708_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+external_test\psoriasis\1753120830_Pictures-of-psoriasis-on-face.jpg,1753120830_Pictures-of-psoriasis-on-face.jpg,psoriasis,0.9993927478790283
+external_test\melanoma\1753120891_ISIC_0000008.jpg,1753120891_ISIC_0000008.jpg,melanoma,0.9997336268424988
+external_test\psoriasis\1753125298_Small+Amelanotic+Melanoma+Skin+Cancer.jpeg,1753125298_Small+Amelanotic+Melanoma+Skin+Cancer.jpeg,psoriasis,0.7121937870979309
+external_test\melanoma\1753125312_mel2.jpeg,1753125312_mel2.jpeg,melanoma,0.9122815728187561
+external_test\melanoma\1753125485_images (2).jpeg,1753125485_images (2).jpeg,melanoma,0.7183569073677063
+external_test\psoriasis\1753125497_images (1).jpeg,1753125497_images (1).jpeg,psoriasis,0.8960805535316467
+external_test\psoriasis\1753125517_images.jpeg,1753125517_images.jpeg,psoriasis,0.9998205304145813
+external_test\melanoma\1753125525_Malignant-Melanoma.png,1753125525_Malignant-Melanoma.png,melanoma,0.999479353427887
+external_test\psoriasis\1753125540_images.jpeg,1753125540_images.jpeg,psoriasis,0.9998205304145813
+external_test\melanoma\1753125555_mel2.jpeg,1753125555_mel2.jpeg,melanoma,0.9122815728187561
+external_test\melanoma\1753126279_subungual-melanoma-nail-melanoma.jpg,1753126279_subungual-melanoma-nail-melanoma.jpg,melanoma,0.686131477355957
+external_test\melanoma\1753126331_Lentigo maligna Melanoma.jpg,1753126331_Lentigo maligna Melanoma.jpg,melanoma,0.5246129631996155
+external_test\melanoma\1753126346_Malignant Melanoma.png,1753126346_Malignant Melanoma.png,melanoma,0.999479353427887
+external_test\melanoma\1753126354_Nodular melanoma.jpg,1753126354_Nodular melanoma.jpg,melanoma,0.8931877017021179
+external_test\melanoma\1753126360_Superficial spreading Melanoma.jpeg,1753126360_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+external_test\melanoma\1753126583_Lentigo maligna Melanoma.jpeg,1753126583_Lentigo maligna Melanoma.jpeg,melanoma,0.999968409538269
+external_test\melanoma\1753126592_Acral-lentiginous Melanoma.jpg,1753126592_Acral-lentiginous Melanoma.jpg,melanoma,0.686131477355957
+external_test\melanoma\1753126603_Malignant Melanoma.png,1753126603_Malignant Melanoma.png,melanoma,0.999479353427887
+external_test\melanoma\1753126609_Nodular melanoma.jpg,1753126609_Nodular melanoma.jpg,melanoma,0.8931877017021179
+external_test\melanoma\1753126615_Superficial spreading Melanoma.jpeg,1753126615_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+external_test\psoriasis\1753126783_Psoriasis vulgaris.jpg,1753126783_Psoriasis vulgaris.jpg,psoriasis,0.9999932050704956
+external_test\psoriasis\1753126894_Psoriasis guttata.jpg,1753126894_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+external_test\psoriasis\1753127244_plaque psoriasis.jpg,1753127244_plaque psoriasis.jpg,psoriasis,0.9999698400497437
+external_test\psoriasis\1753127250_palmoplantar psoriasis.jpg,1753127250_palmoplantar psoriasis.jpg,psoriasis,0.9999285936355591
+external_test\psoriasis\1753127257_flexural psoriasis.jpg,1753127257_flexural psoriasis.jpg,psoriasis,0.9996627569198608
+external_test\psoriasis\1753140305_Psoriasis guttata.jpg,1753140305_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+external_test\melanoma\1753140332_Superficial spreading Melanoma.jpeg,1753140332_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+external_test\melanoma\1753140415_Superficial spreading Melanoma.jpeg,1753140415_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+external_test\psoriasis\1753140429_flexural psoriasis.jpg,1753140429_flexural psoriasis.jpg,psoriasis,0.9996627569198608
+external_test\psoriasis\1753140597_plaque psoriasis.jpg,1753140597_plaque psoriasis.jpg,psoriasis,0.9999698400497437
+external_test\psoriasis\1753140609_Psoriasis guttata.jpg,1753140609_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+external_test\melanoma\1753140620_Lentigo maligna Melanoma.jpeg,1753140620_Lentigo maligna Melanoma.jpeg,melanoma,0.999968409538269
+external_test\melanoma\1753140630_Nodular melanoma.jpg,1753140630_Nodular melanoma.jpg,melanoma,0.8931877017021179
+external_test\melanoma\1753140692_Malignant Melanoma.png,1753140692_Malignant Melanoma.png,melanoma,0.999479353427887
+external_test\melanoma\1753140701_Nodular melanoma.jpg,1753140701_Nodular melanoma.jpg,melanoma,0.8931877017021179
+external_test\psoriasis\1753140714_Psoriasis vulgaris.jpg,1753140714_Psoriasis vulgaris.jpg,psoriasis,0.9999932050704956
+external_test\psoriasis\1753140723_Psoriasis guttata.jpg,1753140723_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+external_test\psoriasis\1753140907_Psoriasis guttata.jpg,1753140907_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+external_test\melanoma\1753141001_Nodular melanoma.jpg,1753141001_Nodular melanoma.jpg,melanoma,0.8931877017021179
+external_test\psoriasis\1753141118_Psoriasis guttata.jpg,1753141118_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+external_test\melanoma\1753141143_Lentigo maligna Melanoma.jpeg,1753141143_Lentigo maligna Melanoma.jpeg,melanoma,0.999968409538269
+external_test\melanoma\1753141149_Superficial spreading Melanoma.jpeg,1753141149_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+external_test\melanoma\1753198610_ISIC_0000009.jpg,1753198610_ISIC_0000009.jpg,melanoma,0.8170720934867859
+external_test\melanoma\1753198629_ISIC_0000009.jpg,1753198629_ISIC_0000009.jpg,melanoma,0.8170720934867859
+external_test\melanoma\1753198631_ISIC_0000009.jpg,1753198631_ISIC_0000009.jpg,melanoma,0.8170720934867859
+external_test\psoriasis\1753202376_2760.jpg,1753202376_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753202487_2760.jpg,1753202487_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753202496_2760.jpg,1753202496_2760.jpg,psoriasis,1.0
+external_test\psoriasis\1753226454_psoria.jpg,1753226454_psoria.jpg,psoriasis,1.0
+external_test\psoriasis\1753226476_psoriasis-2.jpg,1753226476_psoriasis-2.jpg,psoriasis,0.9999908208847046
+external_test\psoriasis\1753296182_psoria.jpg,1753296182_psoria.jpg,psoriasis,1.0

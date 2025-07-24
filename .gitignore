@@ -1,0 +1,36 @@
+# Virtual env & Python cache
+venv/
+__pycache__/
+*.py[cod]
+
+# Model & data
+*.h5
+!models/best_vgg16_model.h5
+
+*.csv
+!logs/prediction_log.csv
+!static/logs/vgg16_classification_report.csv
+
+*.json
+!logs/prediction_history.json
+
+*.log
+
+# Exclude all logs and outputs except specific ones
+logs/*
+!logs/prediction_log.csv
+!logs/prediction_history.json
+
+static/logs/*
+!static/logs/vgg16_classification_report.csv
+!static/logs/vgg16_confusion_matrix.png
+!static/logs/vgg16_training_plot.png
+
+outputs/
+reports/
+external_test/
+
+# Jupyter / editor artifacts
+.ipynb_checkpoints/
+.DS_Store
+.env
