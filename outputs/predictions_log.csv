@@ -1,0 +1,95 @@
+timestamp,nama,usia,jenis_kelamin,nama_file,prediksi,confidence
+
+2025-07-21 22:20:17,jangkung,40,Laki-laki,1753111217_2760.jpg,psoriasis,1.0
+2025-07-21 22:22:58,jangkung,40,Laki-laki,1753111378_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+2025-07-21 22:23:02,jangkung,40,Laki-laki,1753111382_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+2025-07-21 22:23:51,jangkung,40,Laki-laki,1753111431_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+2025-07-21 22:24:00,jangkung,40,Laki-laki,1753111440_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+2025-07-21 22:27:49,jangkung,40,Laki-laki,1753111669_3260.jpg,psoriasis,0.9998329877853394
+2025-07-21 22:27:52,jangkung,40,Laki-laki,1753111672_3260.jpg,psoriasis,0.9998329877853394
+2025-07-21 22:43:23,wahyu,45,Laki-laki,1753112603_shd96zei.png,melanoma,0.8695290684700012
+2025-07-21 22:44:08,wahyu,45,Laki-laki,1753112648_2760.jpg,psoriasis,1.0
+2025-07-21 22:44:18,wahyu,45,Laki-laki,1753112658_ISIC_0000009.jpg,melanoma,0.8170720934867859
+2025-07-21 22:44:26,wahyu,45,Laki-laki,1753112666_ISIC_0000005.jpg,melanoma,0.8274834156036377
+2025-07-21 22:44:39,wahyu,45,Laki-laki,1753112679_ISIC_0000008.jpg,melanoma,0.9997336268424988
+2025-07-21 22:44:55,wahyu,45,Laki-laki,1753112694_ISIC_0000007.jpg,melanoma,0.6808472275733948
+2025-07-21 22:45:27,wahyu,45,Laki-laki,1753112727_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+2025-07-21 22:45:36,wahyu,45,Laki-laki,1753112736_genital-psoriasis-04.jpg,psoriasis,0.9999860525131226
+2025-07-21 22:45:49,wahyu,45,Laki-laki,1753112749_plaque-psoriasis-skin-of-colour-00001.jpg,psoriasis,0.999998927116394
+2025-07-21 22:46:57,wahyu,45,Laki-laki,1753112817_3260.jpg,psoriasis,0.9998329877853394
+2025-07-21 22:48:53,wahyu,45,Laki-laki,1753112933_Generalized-pustular-psoriasis-GPP_MI_01B0W1J0-2048x1360.jpg,psoriasis,0.9999996423721313
+2025-07-21 22:49:02,wahyu,45,Laki-laki,1753112942_psoriasis-2.jpg,psoriasis,0.9999908208847046
+2025-07-21 22:49:10,wahyu,45,Laki-laki,1753112950_Pictures-of-psoriasis-on-face.jpg,psoriasis,0.9993927478790283
+2025-07-21 22:49:17,wahyu,45,Laki-laki,1753112957_psoriasis-GettyImages-1095587050-42ed6d9d90ae454abba9f0f1cabeb78e.jpg,psoriasis,0.9961906671524048
+2025-07-21 22:49:27,wahyu,45,Laki-laki,1753112967_melanoma_0602_superficial_spreading_melanoma_2.jpg,melanoma,0.9929441809654236
+2025-07-21 22:50:56,wahyu,45,Laki-laki,1753113056_Invasive+Nodal+Melanoma+Picture.jpeg,melanoma,0.989557683467865
+2025-07-21 22:52:10,wahyu,45,Laki-laki,1753113130_642x361_SLIDE_4_Nodular_Melanoma.jpg,melanoma,0.829617440700531
+2025-07-21 22:53:51,wahyu,45,Laki-laki,1753113231_melanoma-4unspecified-e1453370627851-768x901.jpg,melanoma,0.9983091354370117
+2025-07-21 22:56:36,wahyu,45,Laki-laki,1753113396_R.jpeg,melanoma,0.5410961508750916
+2025-07-21 22:57:51,wahyu,45,Laki-laki,1753113471_iStock-1137585950-1-1024x683.jpg,psoriasis,0.9999297857284546
+2025-07-22 00:27:39,doni,40,Laki-laki,1753118859_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+2025-07-22 00:27:56,doni,40,Laki-laki,1753118876_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+2025-07-22 00:29:04,doni,40,Laki-laki,1753118944_iStock-1137585950-1-1024x683.jpg,psoriasis,0.9999297857284546
+2025-07-22 00:40:31,doni,40,Laki-laki,1753119631_R.jpeg,melanoma,0.5410961508750916
+2025-07-22 00:40:42,doni,40,Laki-laki,1753119642_ISIC_0000006.jpg,psoriasis,0.5804305672645569
+2025-07-22 00:40:53,doni,40,Laki-laki,1753119653_psoriasis-2.jpg,psoriasis,0.9999908208847046
+2025-07-22 00:41:05,doni,40,Laki-laki,1753119665_ISIC_0000009.jpg,melanoma,0.8170720934867859
+2025-07-22 00:51:20,raka,40,Laki-laki,1753120280_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+2025-07-22 00:52:16,raka,40,Laki-laki,1753120336_melanoma_0602_superficial_spreading_melanoma_2.jpg,melanoma,0.9929441809654236
+2025-07-22 00:58:28,rama,40,Laki-laki,1753120708_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+2025-07-22 01:00:30,rama,40,Laki-laki,1753120830_Pictures-of-psoriasis-on-face.jpg,psoriasis,0.9993927478790283
+2025-07-22 01:01:31,doni,40,Laki-laki,1753120891_ISIC_0000008.jpg,melanoma,0.9997336268424988
+2025-07-22 02:14:58,doni,40,Laki-laki,1753125298_Small+Amelanotic+Melanoma+Skin+Cancer.jpeg,psoriasis,0.7121937870979309
+2025-07-22 02:15:12,doni,40,Laki-laki,1753125312_mel2.jpeg,melanoma,0.9122815728187561
+2025-07-22 02:18:05,doni,40,Laki-laki,1753125485_images (2).jpeg,melanoma,0.7183569073677063
+2025-07-22 02:18:17,doni,40,Laki-laki,1753125497_images (1).jpeg,psoriasis,0.8960805535316467
+2025-07-22 02:18:37,doni,40,Laki-laki,1753125517_images.jpeg,psoriasis,0.9998205304145813
+2025-07-22 02:18:45,doni,40,Laki-laki,1753125525_Malignant-Melanoma.png,melanoma,0.999479353427887
+2025-07-22 02:19:00,doni,40,Laki-laki,1753125540_images.jpeg,psoriasis,0.9998205304145813
+2025-07-22 02:19:15,doni,40,Laki-laki,1753125555_mel2.jpeg,melanoma,0.9122815728187561
+2025-07-22 02:31:19,doni,40,Laki-laki,1753126279_subungual-melanoma-nail-melanoma.jpg,melanoma,0.686131477355957
+2025-07-22 02:32:11,doni,40,Laki-laki,1753126331_Lentigo maligna Melanoma.jpg,melanoma,0.5246129631996155
+2025-07-22 02:32:26,doni,40,Laki-laki,1753126346_Malignant Melanoma.png,melanoma,0.999479353427887
+2025-07-22 02:32:34,doni,40,Laki-laki,1753126354_Nodular melanoma.jpg,melanoma,0.8931877017021179
+2025-07-22 02:32:40,doni,40,Laki-laki,1753126360_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+2025-07-22 02:36:23,raka,40,Laki-laki,1753126583_Lentigo maligna Melanoma.jpeg,melanoma,0.999968409538269
+2025-07-22 02:36:32,raka,40,Laki-laki,1753126592_Acral-lentiginous Melanoma.jpg,melanoma,0.686131477355957
+2025-07-22 02:36:43,raka,40,Laki-laki,1753126603_Malignant Melanoma.png,melanoma,0.999479353427887
+2025-07-22 02:36:49,raka,40,Laki-laki,1753126609_Nodular melanoma.jpg,melanoma,0.8931877017021179
+2025-07-22 02:36:55,raka,40,Laki-laki,1753126615_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+2025-07-22 02:39:43,raka,40,Laki-laki,1753126783_Psoriasis vulgaris.jpg,psoriasis,0.9999932050704956
+2025-07-22 02:41:34,raka,40,Laki-laki,1753126894_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+2025-07-22 02:47:24,raka,40,Laki-laki,1753127244_plaque psoriasis.jpg,psoriasis,0.9999698400497437
+2025-07-22 02:47:30,raka,40,Laki-laki,1753127250_palmoplantar psoriasis.jpg,psoriasis,0.9999285936355591
+2025-07-22 02:47:37,raka,40,Laki-laki,1753127257_flexural psoriasis.jpg,psoriasis,0.9996627569198608
+2025-07-22 06:25:05,doni,40,Laki-laki,1753140305_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+2025-07-22 06:25:32,doni,40,Laki-laki,1753140332_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+2025-07-22 06:26:55,doni,40,Laki-laki,1753140415_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+2025-07-22 06:27:09,doni,40,Laki-laki,1753140429_flexural psoriasis.jpg,psoriasis,0.9996627569198608
+2025-07-22 06:29:57,doni,40,Laki-laki,1753140597_plaque psoriasis.jpg,psoriasis,0.9999698400497437
+2025-07-22 06:30:09,doni,40,Laki-laki,1753140609_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+2025-07-22 06:30:20,doni,40,Laki-laki,1753140620_Lentigo maligna Melanoma.jpeg,melanoma,0.999968409538269
+2025-07-22 06:30:30,doni,40,Laki-laki,1753140630_Nodular melanoma.jpg,melanoma,0.8931877017021179
+2025-07-22 06:31:32,doni,40,Laki-laki,1753140692_Malignant Melanoma.png,melanoma,0.999479353427887
+2025-07-22 06:31:41,doni,40,Laki-laki,1753140701_Nodular melanoma.jpg,melanoma,0.8931877017021179
+2025-07-22 06:31:54,doni,40,Laki-laki,1753140714_Psoriasis vulgaris.jpg,psoriasis,0.9999932050704956
+2025-07-22 06:32:03,doni,40,Laki-laki,1753140723_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+2025-07-22 06:35:07,doni,40,Laki-laki,1753140907_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+2025-07-22 06:36:41,doni,40,Laki-laki,1753141001_Nodular melanoma.jpg,melanoma,0.8931877017021179
+2025-07-22 06:38:38,doni,40,Laki-laki,1753141118_Psoriasis guttata.jpg,psoriasis,0.9261764287948608
+2025-07-22 06:39:03,doni,40,Laki-laki,1753141143_Lentigo maligna Melanoma.jpeg,melanoma,0.999968409538269
+2025-07-22 06:39:09,doni,40,Laki-laki,1753141149_Superficial spreading Melanoma.jpeg,melanoma,0.9976638555526733
+2025-07-22 22:36:50,siska,40,Perempuan,1753198610_ISIC_0000009.jpg,melanoma,0.8170720934867859
+2025-07-22 22:37:09,siska,40,Perempuan,1753198629_ISIC_0000009.jpg,melanoma,0.8170720934867859
+2025-07-22 22:37:11,siska,40,Perempuan,1753198631_ISIC_0000009.jpg,melanoma,0.8170720934867859
+2025-07-22 22:44:46,doni,40,Laki-laki,1753199086_genital-psoriasis-01.jpg,psoriasis,0.9999915361404419
+2025-07-22 22:45:06,doni,40,Laki-laki,1753199106_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+2025-07-22 22:47:21,ninja,25,Laki-laki,1753199241_iStock-1137585950-1-1024x683.jpg,psoriasis,0.9999297857284546
+2025-07-22 23:10:39,doni,25,Laki-laki,1753200639_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+2025-07-22 23:15:09,doni,25,Laki-laki,1753200908_what-you-need-to-know-about-guttate-psoriasis-rm-1440x810.jpg,psoriasis,0.9742591381072998
+2025-07-22 23:39:36,doni,25,Laki-laki,1753202376_2760.jpg,psoriasis,1.0
+2025-07-22 23:41:27,doni,25,Laki-laki,1753202487_2760.jpg,psoriasis,1.0
+2025-07-22 23:41:36,doni,25,Laki-laki,1753202496_2760.jpg,psoriasis,1.0
+2025-07-23 06:20:54,doni,25,Laki-laki,1753226454_psoria.jpg,psoriasis,1.0
+2025-07-23 06:21:16,doni,25,Laki-laki,1753226476_psoriasis-2.jpg,psoriasis,0.9999908208847046
+2025-07-24 01:43:02,akila,40,Perempuan,1753296182_psoria.jpg,psoriasis,1.0
