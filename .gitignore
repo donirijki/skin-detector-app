@@ -16,7 +16,15 @@ __pycache__/
 
 *.log
 
-# Exclude all logs and outputs except specific ones
+# Ignore image files globally, but allow those inside external_test/
+*.jpg
+*.png
+*.jpeg
+!external_test/**/*.jpg
+!external_test/**/*.png
+!external_test/**/*.jpeg
+
+# Exclude logs and outputs except specific ones
 logs/*
 !logs/prediction_log.csv
 !logs/prediction_history.json
@@ -32,13 +40,12 @@ outputs/*
 reports/*
 !reports/** 
 
-# Keep empty folder for storing predicted images
-external_test/*
-!external_test/melanoma/** 
-!external_test/psoriasis/** 
+# Allow test folders to be tracked
+!external_test/
+!external_test/melanoma/
+!external_test/psoriasis/
 
-
-# Jupyter / editor artifacts
+# Editor/Jupyter artifacts
 .ipynb_checkpoints/
 .DS_Store
 .env
