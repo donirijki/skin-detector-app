@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 17:00:02
+Nama Pengguna   : user046
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 03f485f1f16dcaf4138cf1fb12ef7b44_melanoma-with-asymmetry-and-discoloration.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 99.95%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.95%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

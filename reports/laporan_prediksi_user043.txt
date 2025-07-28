@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:57:02
+Nama Pengguna   : user043
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 4d62ac4ee964fd59c215784269a90dac_basosquamous-cell-carcinoma-type.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 99.58%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 99.58%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

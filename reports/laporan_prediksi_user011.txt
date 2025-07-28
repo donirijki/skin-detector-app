@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:18:26
+Nama Pengguna   : user011
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 97432199181adf8d80041de2f8962a15_2779.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 100.00%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 100.00%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

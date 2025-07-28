@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:56:06
+Nama Pengguna   : user032
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 539584feba49b1c55c0c599b3dcd5abc_Basal_cell_carcinoma.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 98.73%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 98.73%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:12:00
+Nama Pengguna   : user007
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : b4a447d2a868d1c63dfb1082970fa3bc_qxsrg9rf.png
+Prediksi Model  : MELANOMA
+Confidence      : 99.89%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.89%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

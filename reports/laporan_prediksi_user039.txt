@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:53:10
+Nama Pengguna   : user039
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 11025b8964f1008ce8ad4b058c4fc62a_12-pubic-melanoma-m.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 99.94%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.94%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

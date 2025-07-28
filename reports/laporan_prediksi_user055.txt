@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:10:25
+Nama Pengguna   : user055
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : b22bc91dcecbac72b12f3462b206672f_Malignant_Melanoma.png
+Prediksi Model  : MELANOMA
+Confidence      : 99.85%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.85%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:54:03
+Nama Pengguna   : user040
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 3653f2d9d86c1108b9c6519595364f86_Clinical-picture-and-dermoscopy-A-Psoriasis-plaques-on-the-lower-legs-with-the_Q640.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 81.38%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 81.38%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

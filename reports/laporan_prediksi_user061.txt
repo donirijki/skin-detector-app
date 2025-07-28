@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:14:55
+Nama Pengguna   : user061
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 71a24c9048dcbda85684a898affa0c91_palmoplantar_psoriasis.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 100.00%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 100.00%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:58:04
+Nama Pengguna   : user044
+Usia            : 21
+Jenis Kelamin   : Lainnya
+
+Nama Gambar     : 3f911644aa1bbd04c9138528a67d0ee4_C0172036-Keratoacanthoma.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 97.27%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 97.27%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

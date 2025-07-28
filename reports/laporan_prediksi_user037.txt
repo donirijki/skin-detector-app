@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:48:36
+Nama Pengguna   : user037
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 5a0d77dd480acdd70764f292c901c728_amelanotic-melanoma-018.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 61.24%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 61.24%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

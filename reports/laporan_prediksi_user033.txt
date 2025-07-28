@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:44:40
+Nama Pengguna   : user033
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 1aac35f1421e6f4401bf714b82c11aa9_uveal-melanoma5.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 97.57%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 97.57%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

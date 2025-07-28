@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:47:56
+Nama Pengguna   : user036
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : f0606839feb2bba00b3b2fadaeb3412b_12b-amelanotic-melanoma.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 61.42%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 61.42%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

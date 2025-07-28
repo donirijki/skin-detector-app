@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:25:36
+Nama Pengguna   : user018
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 2f0bfdd55a809079568b069347587d3e_scalp-psoriasis-0005.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 88.31%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 88.31%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

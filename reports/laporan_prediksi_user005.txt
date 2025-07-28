@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 07:51:17
+Nama Pengguna   : user005
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 1c288b8325d4adb85b0e9447c2403ae1_penile-psoriasis3-s.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 100.00%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 100.00%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 07:21:42
+Nama Pengguna   : user001
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : c6329b95cc40e34e646487262a5b41c8_The-clinical-aspect-of-Case-2-has-an-overall-pigmented-pearly-and-translucent-feature_Q640.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 99.98%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.98%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:31:14
+Nama Pengguna   : user024
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : a78544486addd20f01afd267a9005f8e_lithium-psoriasis-3.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 100.00%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 100.00%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

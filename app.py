@@ -4,18 +4,18 @@ import os
 # Import modul dan komponen
 from utils.model_loader import load_model
 from component.prediction_section import render_prediction_section
-from evaluation_model_summary import render_evaluation_model_page
-from component.advice_section import render_advice_section 
+from component.evaluation_section import render_evaluation_section
+from component.advice_section import render_advice_section
 
 # Konfigurasi Halaman
 st.set_page_config(
-    page_title="Deteksi Kulit - Melanoma vs Psoriasis",
+    page_title="Deteksi Kulit Melanoma dan Psoriasis",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Judul Aplikasi
-st.title("Aplikasi Deteksi Gambar Kulit: Melanoma vs Psoriasis")
+st.title("Aplikasi Deteksi Gambar Kulit untuk Melanoma dan Psoriasis")
 
 # Inisialisasi Session State
 if "user_info" not in st.session_state:
@@ -29,6 +29,9 @@ if "latest_image" not in st.session_state:
 
 if "history" not in st.session_state:
     st.session_state.history = []
+
+if "navigate_to_evaluation" not in st.session_state:
+    st.session_state.navigate_to_evaluation = False
 
 # Load Model Sekali (Cache)
 try:
@@ -62,34 +65,51 @@ menu = st.sidebar.radio(
     ]
 )
 
+# Navigasi otomatis dari tombol di halaman prediksi
+if st.session_state.navigate_to_evaluation:
+    menu = "Evaluasi Model"
+    st.session_state.navigate_to_evaluation = False
+
 # Routing Berdasarkan Menu
 if menu == "Panduan & Identitas":
     st.header("Panduan Penggunaan Aplikasi")
     st.markdown("""
 Aplikasi ini dirancang untuk membantu klasifikasi gambar kulit menjadi **Melanoma** atau **Psoriasis** menggunakan model CNN (**Convolutional Neural Network**).
 
+---
+
 ### Cara Menggunakan Aplikasi:
 
-1. **Isi Identitas Pengguna** 
-   Harap isi terlebih dahulu! 
-   Masukkan nama, usia, dan jenis kelamin pada formulir di bawah untuk keperluan dokumentasi dan log prediksi.
+1. **Isi Identitas Pengguna**  
+   Masukkan nama, usia, dan jenis kelamin anda terlebih dahulu agar bisa melanjutkan ke menu prediksi.
 
 2. **Prediksi Gambar Kulit**  
-   Masuk ke menu **Prediksi Gambar** untuk mengunggah foto kulit dalam format `.jpg`, `.jpeg`, atau `.png`.  
-   Aplikasi akan memproses gambar menggunakan model CNN (VGG16) dan menampilkan:
-   - Hasil prediksi (Melanoma atau Psoriasis)
-   - Persentase keyakinan model
-   - Visualisasi Grad-CAM
+   - Masuk ke menu **Prediksi Gambar**
+   - Unggah gambar kulit berformat `.jpg`, `.jpeg`, atau `.png`
+   - Aplikasi akan menampilkan:
+     - Hasil prediksi kelas
+     - Persentase keyakinan model
+     - Visualisasi Grad-CAM
+     - Distribusi probabilitas antar kelas
+   - Jika hasil prediksi menunjukkan Melanoma, silakan isi label sebenarnya dengan Melanoma begitu pun sebaliknya untuk melanjutkan ke evaluasi model 
+   - Setelah itu anda dapat mengisi label sebenarnya 
 
 3. **Evaluasi Model**  
-   Menu **Evaluasi Model** menampilkan ringkasan akurasi, confusion matrix, classification report, grafik training, serta ringkasan performa model saat pelatihan.
+   - Menu **Evaluasi Model** akan menampilkan performa model berdasarkan **seluruh histori prediksi pengguna**
+   - Termasuk:
+     - Akurasi model
+     - Confusion Matrix
+     - Classification Report
+   - Histori disimpan secara otomatis setiap kali pengguna melakukan prediksi
 
 4. **Penjelasan Medis**  
-   Buka menu **Penjelasan Medis** untuk mempelajari lebih lanjut mengenai penyakit Melanoma dan Psoriasis.
+   Menu ini berisi informasi medis tentang **Melanoma** dan **Psoriasis** sebagai edukasi tambahan.
+
+---
 
 **Catatan Penting:**
-- Aplikasi ini hanya alat bantu, bukan diagnosis medis.
-- Tetap konsultasikan hasil dengan dokter spesialis.
+- Aplikasi ini **bukan pengganti diagnosis medis**.
+- Gunakan hasil sebagai referensi awal, dan **konsultasikan dengan dokter spesialis kulit** untuk diagnosis resmi.
 """)
 
     st.subheader("Formulir Identitas Pengguna")
@@ -117,7 +137,7 @@ elif menu == "Prediksi Gambar":
         render_prediction_section(model, st.session_state.user_info)
 
 elif menu == "Evaluasi Model":
-    render_evaluation_model_page()
+    render_evaluation_section()
 
 elif menu == "Penjelasan Medis":
     render_advice_section()

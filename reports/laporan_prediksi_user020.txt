@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:27:58
+Nama Pengguna   : user020
+Usia            : 40
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : e305813de38092bfa36673ecda26bdb8_ps-elbow.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 99.85%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 99.85%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

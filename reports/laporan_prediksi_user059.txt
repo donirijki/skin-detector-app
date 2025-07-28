@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:13:49
+Nama Pengguna   : user059
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 14114679b6a6d90af3136687db44e7a9_Psoriasis_guttata.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 95.54%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 95.54%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

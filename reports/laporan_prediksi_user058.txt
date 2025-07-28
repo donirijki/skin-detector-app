@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:13:12
+Nama Pengguna   : user058
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 878b3038b13f49bcfe89bc2397789418_flexural_psoriasis.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 99.90%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 99.90%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 17:04:44
+Nama Pengguna   : user051
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 3d99f5aeb0224229a4c4b0829e447991_pustular-psoriasis_MI_01B0W1J0-scaled.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 99.99%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 99.99%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:08:44
+Nama Pengguna   : user053
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : b86fdeb40ce66ed1179c1a291850e0d2_Acral-lentiginous_Melanoma.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 53.81%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 53.81%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

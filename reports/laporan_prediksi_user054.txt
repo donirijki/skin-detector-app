@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:09:39
+Nama Pengguna   : user054
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 0f92a9cc102500c5a0190f8c0bc5f272_Lentigo_maligna_Melanoma.jpeg
+Prediksi Model  : MELANOMA
+Confidence      : 100.00%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 100.00%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:31:58
+Nama Pengguna   : user025
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : f04f6d9039f8601ac0ea2b468db48b6f_metastatic-melanoma-18.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 92.75%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 92.75%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

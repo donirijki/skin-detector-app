@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:28:39
+Nama Pengguna   : user021
+Usia            : 40
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 54e1162de6fe007ee334d85bce8fc909_ps-plq7.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 100.00%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 100.00%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

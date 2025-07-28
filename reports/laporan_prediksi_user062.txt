@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:15:27
+Nama Pengguna   : user062
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : cc81074b233b6d26919d4549fd11cb20_Psoriasis_vulgaris.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 99.67%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 99.67%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-29 06:11:13
+Nama Pengguna   : user056
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 4669a66b5d9f69c62ad624cdfe7655d0_Nodular_melanoma.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 99.61%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.61%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

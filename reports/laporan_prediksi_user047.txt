@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 17:00:52
+Nama Pengguna   : user047
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : ea906423161dd22ab4186002fb73fd55_Severe_superficial_spreading_melanoma-1296x728-Gallery1.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 99.98%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 99.98%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:36:40
+Nama Pengguna   : user030
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 2f35b8f125b5e33b0185dcfa5723bc86_spitzoid-melanoma-1.jpg
+Prediksi Model  : MELANOMA
+Confidence      : 90.96%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai MELANOMA dengan keyakinan 90.96%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

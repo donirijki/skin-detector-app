@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:58:47
+Nama Pengguna   : user045
+Usia            : 21
+Jenis Kelamin   : Laki-laki
+
+Nama Gambar     : 9d1b2a49fb4fcca858232bd6e6241651_Lentigo_maligna_Melanoma_2.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 55.99%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 55.99%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

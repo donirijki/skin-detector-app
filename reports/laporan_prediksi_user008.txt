@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:12:41
+Nama Pengguna   : user008
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 278b2246e544218337234bc8d7491e8c_malignant-melanoma.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 51.14%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 51.14%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+

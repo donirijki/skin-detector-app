@@ -1,0 +1,15 @@
+LAPORAN PREDIKSI KULIT 
+
+Tanggal/Waktu   : 2025-07-28 16:30:32
+Nama Pengguna   : user023
+Usia            : 21
+Jenis Kelamin   : Perempuan
+
+Nama Gambar     : 3d3e64d35b64eb0342331a1359f7f6bd_facial-psoriasis03.jpg
+Prediksi Model  : PSORIASIS
+Confidence      : 99.98%
+
+Penjelasan Model:
+Model mendeteksi gambar ini sebagai PSORIASIS dengan keyakinan 99.98%.
+Silakan konsultasikan ke dokter kulit untuk konfirmasi lebih lanjut.
+
