@@ -1,43 +1,49 @@
 # Aplikasi Deteksi Kulit: Melanoma vs Psoriasis
 
 Web app ini menggunakan model deep learning **VGG16** untuk mengklasifikasikan gambar kulit menjadi **Melanoma** atau **Psoriasis**.  
-Dilengkapi visualisasi **Grad-CAM**, evaluasi performa model, dan penjelasan medis sebagai edukasi pengguna.
+Dilengkapi dengan visualisasi **Grad-CAM**, evaluasi performa model, serta halaman edukasi medis interaktif untuk pengguna.
 
 ---
 
 ## Coba Demo Langsung
-[Akses Aplikasi via Streamlit Cloud](https://melanosis-app-ikyy.streamlit.app/)
+
+[Buka Aplikasi di Streamlit Cloud](https://melanosis-app-ikyy.streamlit.app/)
 
 ---
 
-## Fitur Utama
+## ⚙️ Fitur Utama
 
-- Upload gambar kulit
-- Prediksi otomatis: Melanoma atau Psoriasis
-- Visualisasi Grad-CAM: Area penting yang dipertimbangkan model
-- Logging histori prediksi
-- Unduh laporan hasil prediksi (CSV)
-- Halaman evaluasi model: akurasi, confusion matrix, dan classification report
-- Penjelasan penyakit secara medis
+- Upload gambar kulit langsung dari antarmuka web
+- Prediksi otomatis dengan output Melanoma / Psoriasis
+- Visualisasi **Grad-CAM** untuk area penting yang diperhatikan model
+- Logging histori prediksi (tersimpan otomatis)
+- Unduh laporan hasil prediksi (.txt)
+- Evaluasi model: akurasi, confusion matrix, classification report
+- Edukasi visual interaktif tentang jenis penyakit kulit
 
 ---
 
 ## Struktur Proyek
-```
-project_root/
-├── app.py # File utama Streamlit
-├── requirements.txt # Daftar dependensi Python
-├── evaluation_model_summary.py # Halaman evaluasi model
-├── models/ # Model terlatih (.h5)
-├── component/ # Komponen UI (modular)
-├── utils/ # Fungsi pendukung & preprocessing
-├── static/logs/ # Visualisasi hasil pelatihan
-├── logs/ # Histori prediksi JSON + CSV
-├── reports/ # File laporan hasil prediksi
-├── data_testing/ # Dataset pengujian lokal
-├── external_test/ # Gambar prediksi user
-├── outputs/ # Log tambahan prediksi
-└── venv/ # Virtual environment (abaikan saat push)
+
+```text
+skin-detector-app/
+├── app.py                       # File utama Streamlit
+├── requirements.txt            # Daftar dependensi Python
+├── evaluation_model_summary.py # Halaman evaluasi model (opsional)
+├── models/                     # Model CNN terlatih (.h5)
+├── component/                  # Komponen UI modular (prediksi, advice, evaluasi)
+│   ├── prediction_section.py
+│   ├── advice_section.py
+│   └── evaluation_section.py
+├── utils/                      # Preprocessing, Grad-CAM, logging
+├── static/logs/                # Visualisasi hasil training (loss/accuracy PNG)
+├── logs/                       # Histori prediksi pengguna (JSON, CSV)
+├── reports/                    # Laporan hasil prediksi (.txt)
+├── data_testing/               # Dataset pengujian (gambar Melanoma & Psoriasis)
+├── external_test/              # Gambar hasil prediksi user disimpan otomatis
+├── outputs/                    # Log tambahan & file prediksi
+├── .streamlit/config.toml      # Tema UI kustom (warna latar dan font)
+└── venv/                       # Virtual environment (tidak di-push ke GitHub)
 ```
 
 ---
