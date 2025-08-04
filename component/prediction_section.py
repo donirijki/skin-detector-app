@@ -39,14 +39,24 @@ def render_prediction_section(model, user_info=None):
     uploaded_file = st.file_uploader("Unggah gambar (.jpg / .jpeg / .png)", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
+        # Validasi ukuran file (maksimum 5 MB)
+        max_size_bytes = 5 * 1024 * 1024  # 5 MB
+        if uploaded_file.size > max_size_bytes:
+            st.error("Ukuran file melebihi 5 MB. Harap unggah gambar yang lebih kecil.")
+            return
+
         try:
             # Gambar asli
             image = Image.open(uploaded_file).convert("RGB")
+
+            # Resize otomatis ke 224x224
+            image_resized = image.resize((224, 224))
+
             st.subheader("Gambar yang Diupload")
             st.image(image, caption="Gambar Input", width=400)
 
             # Preprocessing
-            input_data = preprocess_image(image)
+            input_data = preprocess_image(image_resized)
             if input_data is None or input_data.shape != (1, 224, 224, 3):
                 st.error("Gambar tidak valid atau gagal diproses.")
                 return
@@ -87,7 +97,7 @@ def render_prediction_section(model, user_info=None):
             st.subheader("Visualisasi Grad-CAM")
             try:
                 heatmap = make_gradcam_heatmap(input_data, model, last_conv_layer_name="block5_conv3")
-                result_image = apply_heatmap_on_image(image, heatmap)
+                result_image = apply_heatmap_on_image(image_resized, heatmap)
                 st.image(result_image, caption="Grad-CAM Overlay", width=400)
             except Exception as e:
                 st.error(f"Gagal membuat Grad-CAM: {e}")
