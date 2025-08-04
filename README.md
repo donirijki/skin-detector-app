@@ -53,38 +53,25 @@ skin-detector-app/
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal:
 
 ```bash
-```
 # 1. Clone Repository
 git clone https://github.com/donirijki/skin-detector-app.git
 cd skin-detector-app
-```
 
-```
 # 2. Buat Virtual Environment
 python -m venv venv
-```
 
-```
 # 3. Aktifkan Virtual Environment
 # (Windows)
 .\venv\Scripts\activate
-```
-```
 # (macOS/Linux)
 source venv/bin/activate
-```
 
-```
 # 4. Install Dependencies
 pip install -r requirements.txt
-```
 
-```
 # 5. Jalankan Aplikasi
 streamlit run app.py
-```
 
-```
 # 6. Akses Aplikasi
 # Buka browser dan kunjungi:
 http://localhost:8501
