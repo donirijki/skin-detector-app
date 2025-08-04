@@ -11,7 +11,7 @@ Dilengkapi dengan visualisasi **Grad-CAM**, evaluasi performa model, serta halam
 
 ---
 
-## ⚙️ Fitur Utama
+## Fitur Utama
 
 - Upload gambar kulit langsung dari antarmuka web
 - Prediksi otomatis dengan output Melanoma / Psoriasis
@@ -50,12 +50,31 @@ skin-detector-app/
 
 ## Instalasi Lokal
 
-### Clone Repo
+Ikuti langkah berikut untuk menjalankan aplikasi secara lokal :
+
+---
+
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/donirjki/skin-detector-app.git
-<<<<<<< HEAD
+git clone https://github.com/donirijki/skin-detector-app.git
 cd skin-detector-app
-=======
-cd skin-detector-app
->>>>>>> 8f26518 (Fix: rename requirements file + update for Streamlit Cloud)
+
+### 2. Buat dan Aktifkan Virtual Environment 
+# Buat virtual environment
+python -m venv venv
+
+# Aktifkan (Windows)
+.\venv\Scripts\activate
+
+# Aktifkan (macOS/Linux)
+source venv/bin/activate
+
+### 3. Install Dependencies
+pip install -r requirements.txt
+
+### 4. Jalankan Aplikasi
+streamlit run app.py
+
+### 5. Akses Manual
+http://localhost:8501
