@@ -81,54 +81,71 @@ Aplikasi ini dirancang untuk membantu klasifikasi gambar kulit menjadi **Melanom
 ### Cara Menggunakan Aplikasi:
 
 1. **Isi Identitas Pengguna**  
-   Masukkan nama, usia, dan jenis kelamin anda terlebih dahulu agar bisa melanjutkan ke menu prediksi.
+   Masukkan nama, usia, dan jenis kelamin terlebih dahulu agar dapat melanjutkan ke menu prediksi.
 
 2. **Prediksi Gambar Kulit**  
    - Masuk ke menu **Prediksi Gambar**
-   - Unggah gambar kulit berformat `.jpg`, `.jpeg`, atau `.png`
+   - Unggah gambar kulit dengan format `.jpg`, `.jpeg`, atau `.png`
+
+   **Ketentuan Gambar yang Disarankan:**
+   - Ukuran maksimal file: 5 MB
+   - Resolusi ideal: 224 x 224 piksel  
+     (Jika gambar beresolusi lebih besar, akan diubah otomatis oleh sistem)
+   - Panduan pengambilan gambar:
+     - Ambil gambar dari jarak dekat dengan fokus pada area kulit yang mengalami kelainan atau lesi
+     - Pastikan gambar tidak buram (tidak blur)
+     - Gunakan pencahayaan yang cukup dan merata (hindari pencahayaan yang terlalu gelap atau terlalu terang)
+     - Hindari latar belakang yang mengganggu atau objek lain seperti jari tangan lain, perban, kain, atau benda asing lainnya
+
    - Aplikasi akan menampilkan:
      - Hasil prediksi kelas
      - Persentase keyakinan model
      - Visualisasi Grad-CAM
      - Distribusi probabilitas antar kelas
-   - Jika hasil prediksi menunjukkan Melanoma, silakan isi label sebenarnya dengan Melanoma begitu pun sebaliknya untuk melanjutkan ke evaluasi model 
-   - Setelah itu anda dapat mengisi label sebenarnya 
+   - Setelah prediksi, silakan isi label sebenarnya untuk evaluasi model
 
 3. **Evaluasi Model**  
-   - Menu **Evaluasi Model** akan menampilkan performa model berdasarkan **seluruh histori prediksi pengguna**
+   - Menampilkan performa model berdasarkan seluruh histori prediksi pengguna
    - Termasuk:
-     - Akurasi model
+     - Akurasi
      - Confusion Matrix
      - Classification Report
-   - Histori disimpan secara otomatis setiap kali pengguna melakukan prediksi
+   - Histori tersimpan otomatis setiap kali pengguna melakukan prediksi
 
 4. **Penjelasan Medis**  
-   Menu ini berisi informasi medis tentang **Melanoma** dan **Psoriasis** sebagai edukasi tambahan.
+   Menyediakan informasi medis terkait Melanoma dan Psoriasis sebagai edukasi tambahan.
 
 ---
 
 **Catatan Penting:**
-- Aplikasi ini **bukan pengganti diagnosis medis**.
-- Gunakan hasil sebagai referensi awal, dan **konsultasikan dengan dokter spesialis kulit** untuk diagnosis resmi.
+- Aplikasi ini **bukan pengganti diagnosis medis**
+- Gunakan sebagai referensi awal dan selalu konsultasikan dengan dokter spesialis kulit
 """)
 
     st.subheader("Formulir Identitas Pengguna")
     with st.form("user_info_form"):
         name = st.text_input("Nama Lengkap")
         age = st.number_input("Usia", min_value=0, max_value=120, value=0)
-        gender = st.selectbox("Jenis Kelamin", ["", "Laki-laki", "Perempuan", "Lainnya"], index=0)
+        gender = st.selectbox("Jenis Kelamin", ["", "Laki-laki", "Perempuan"], index=0)
         submitted = st.form_submit_button("Simpan")
 
         if submitted:
-            st.session_state.user_info = {
-                "nama": name,
-                "usia": age,
-                "jenis_kelamin": gender
-            }
-            st.success(
-                f"Data tersimpan. Halo, **{name}** ({gender}, {age} tahun). "
-                "Silakan lanjut ke menu *Prediksi Gambar*."
-            )
+            if not name.strip():
+                st.error("Nama tidak boleh kosong.")
+            elif gender not in ["Laki-laki", "Perempuan"]:
+                st.error("Silakan pilih jenis kelamin.")
+            elif age == 0:
+                st.error("Silakan isi usia Anda terlebih dahulu.")
+            else:
+                st.session_state.user_info = {
+                    "nama": name,
+                    "usia": age,
+                    "jenis_kelamin": gender
+                }
+                st.success(
+                    f"Data tersimpan. Halo, **{name}** ({gender}, {age} tahun). "
+                    "Silakan lanjut ke menu *Prediksi Gambar*."
+                )
 
 elif menu == "Prediksi Gambar":
     if not st.session_state.user_info:
@@ -137,7 +154,10 @@ elif menu == "Prediksi Gambar":
         render_prediction_section(model, st.session_state.user_info)
 
 elif menu == "Evaluasi Model":
-    render_evaluation_section()
+    if not st.session_state.history:
+        st.warning("Anda belum melakukan prediksi gambar apa pun. Silakan lakukan minimal satu prediksi terlebih dahulu.")
+    else:
+        render_evaluation_section()
 
 elif menu == "Penjelasan Medis":
     render_advice_section()
