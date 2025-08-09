@@ -74,52 +74,42 @@ if st.session_state.navigate_to_evaluation:
 if menu == "Panduan & Identitas":
     st.header("Panduan Penggunaan Aplikasi")
     st.markdown("""
-Aplikasi ini dirancang untuk membantu klasifikasi gambar kulit menjadi **Melanoma** atau **Psoriasis** menggunakan model CNN (**Convolutional Neural Network**).
+Aplikasi ini menggunakan model *VGG16* untuk mendeteksi jenis penyakit kulit, yaitu **Melanoma** atau **Psoriasis**.
 
 ---
 
-### Cara Menggunakan Aplikasi:
+### Langkah Penggunaan:
 
-1. **Isi Identitas Pengguna**  
-   Masukkan nama, usia, dan jenis kelamin terlebih dahulu agar dapat melanjutkan ke menu prediksi.
+1. **Isi Identitas**  
+   Masukkan nama, usia, dan jenis kelamin 
 
 2. **Prediksi Gambar Kulit**  
-   - Masuk ke menu **Prediksi Gambar**
-   - Unggah gambar kulit dengan format `.jpg`, `.jpeg`, atau `.png`
+   Unggah gambar kulit dengan format `.jpg`, `.jpeg`, atau `.png`.  
+   Ukuran maksimal 5 MB, resolusi ideal 224x224 piksel (otomatis disesuaikan).
 
-   **Ketentuan Gambar yang Disarankan:**
-   - Ukuran maksimal file: 5 MB
-   - Resolusi ideal: 224 x 224 piksel  
-     (Jika gambar beresolusi lebih besar, akan diubah otomatis oleh sistem)
-   - Panduan pengambilan gambar:
-     - Ambil gambar dari jarak dekat dengan fokus pada area kulit yang mengalami kelainan atau lesi
-     - Pastikan gambar tidak buram (tidak blur)
-     - Gunakan pencahayaan yang cukup dan merata (hindari pencahayaan yang terlalu gelap atau terlalu terang)
-     - Hindari latar belakang yang mengganggu atau objek lain seperti jari tangan lain, perban, kain, atau benda asing lainnya
+   Pastikan gambar:
+   - Fokus pada area lesi
+   - Tidak blur
+   - Pencahayaan merata
+   - Latar belakang bersih dari objek lain
 
-   - Aplikasi akan menampilkan:
-     - Hasil prediksi kelas
-     - Persentase keyakinan model
-     - Visualisasi Grad-CAM
-     - Distribusi probabilitas antar kelas
-   - Setelah prediksi, silakan isi label sebenarnya untuk evaluasi model
+   Hasil prediksi akan menunjukkan:
+   - Kategori (Melanoma / Psoriasis)
+   - Tingkat keyakinan model
+   - Visualisasi Grad-CAM
+   - Distribusi probabilitas
 
-3. **Evaluasi Model**  
-   - Menampilkan performa model berdasarkan seluruh histori prediksi pengguna
-   - Termasuk:
-     - Akurasi
-     - Confusion Matrix
-     - Classification Report
-   - Histori tersimpan otomatis setiap kali pengguna melakukan prediksi
+3. **Masukkan Label Sebenarnya**  
+   Input label asli gambar (jika tersedia) 
+                
+4. **Evaluasi Model**  
+   Menampilkan akurasi, confusion matrix, dan classification report berdasarkan histori prediksi.
 
-4. **Penjelasan Medis**  
-   Menyediakan informasi medis terkait Melanoma dan Psoriasis sebagai edukasi tambahan.
+5. **Penjelasan Medis**  
+   Berisi informasi singkat mengenai kedua jenis penyakit kulit sebagai tambahan edukasi.
 
----
-
-**Catatan Penting:**
-- Aplikasi ini **bukan pengganti diagnosis medis**
-- Gunakan sebagai referensi awal dan selalu konsultasikan dengan dokter spesialis kulit
+**Catatan:**  
+Aplikasi ini hanya alat bantu awal dan **tidak menggantikan diagnosis medis**. Selalu konsultasikan dengan dokter kulit.
 """)
 
     st.subheader("Formulir Identitas Pengguna")
@@ -135,7 +125,7 @@ Aplikasi ini dirancang untuk membantu klasifikasi gambar kulit menjadi **Melanom
             elif gender not in ["Laki-laki", "Perempuan"]:
                 st.error("Silakan pilih jenis kelamin.")
             elif age == 0:
-                st.error("Silakan isi usia Anda terlebih dahulu.")
+                st.error("Silakan isi usia terlebih dahulu.")
             else:
                 st.session_state.user_info = {
                     "nama": name,

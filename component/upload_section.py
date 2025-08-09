@@ -1,28 +1,34 @@
 import streamlit as st
 from PIL import Image
-import io
 
 def render_upload_section():
     st.subheader("Upload Gambar Kulit")
+    st.markdown("Silakan unggah gambar kulit dalam format **.jpg**, **.jpeg**, atau **.png**. Ukuran maksimal 5 MB.")
 
     uploaded_file = st.file_uploader(
-        "Pilih gambar kulit (.jpg / .jpeg / .png)",
+        label="Pilih gambar dari perangkat Anda:",
         type=["jpg", "jpeg", "png"]
     )
 
     if uploaded_file is not None:
+        # Validasi ukuran file (maks 5MB)
+        max_size_bytes = 5 * 1024 * 1024
+        if uploaded_file.size > max_size_bytes:
+            st.error("Ukuran file melebihi 5 MB. Silakan unggah gambar yang lebih kecil.")
+            return None, None, None
+
         try:
-            # Baca gambar dari file uploader (stream)
+            # Buka dan konversi gambar ke RGB
             image = Image.open(uploaded_file).convert("RGB")
 
-            # Tampilkan gambar
+            # Tampilkan gambar preview
             st.image(
                 image,
                 caption="Gambar yang diunggah",
                 use_container_width=True
             )
 
-            # Simpan salinan bytes-nya agar bisa digunakan ulang atau dievaluasi
+            # Ambil nama dan bytes untuk keperluan berikutnya
             image_bytes = uploaded_file.getvalue()
             image_name = uploaded_file.name
 
@@ -32,4 +38,5 @@ def render_upload_section():
             st.error(f"Gagal memuat gambar: {e}")
             return None, None, None
 
+    # Jika belum ada file diunggah
     return None, None, None
