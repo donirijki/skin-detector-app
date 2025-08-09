@@ -63,3 +63,4 @@ timestamp,nama,usia,jenis_kelamin,nama_file,prediksi,confidence,
 2025-07-29 06:14:55,user061,21,Perempuan,71a24c9048dcbda85684a898affa0c91_palmoplantar_psoriasis.jpg,psoriasis,0.9999724626541138,psoriasis
 2025-07-29 06:15:27,user062,21,Laki-laki,cc81074b233b6d26919d4549fd11cb20_Psoriasis_vulgaris.jpg,psoriasis,0.9966991543769836,psoriasis
 2025-07-29 06:17:17,user063,21,Perempuan,7615679b42480625a10493fe4e9629cb_ISIC_0000008.jpg,melanoma,0.9990850687026978,psoriasis
+2025-08-08 18:11:17,user064,21,Laki-laki,59d4c396e9dac58887d9746b75abe11c_pvzd5rrn.png,melanoma,0.9995933175086975,melanoma

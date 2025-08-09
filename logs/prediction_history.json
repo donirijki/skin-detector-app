@@ -376,5 +376,11 @@
     "predicted_label": "melanoma",
     "confidence": 0.9990850687026978,
     "true_label": "psoriasis"
+  },
+  {
+    "image_name": "59d4c396e9dac58887d9746b75abe11c_pvzd5rrn.png",
+    "predicted_label": "melanoma",
+    "confidence": 0.9995933175086975,
+    "true_label": "melanoma"
   }
 ]
