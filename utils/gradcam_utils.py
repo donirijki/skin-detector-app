@@ -16,33 +16,33 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name="block5_conv3", 
     Returns:
         heatmap: Array 2D normalisasi (0-1) untuk divisualisasikan.
     """
-    # Model Grad-CAM
     grad_model = tf.keras.models.Model(
         [model.inputs],
         [model.get_layer(last_conv_layer_name).output, model.output]
     )
 
-    # Hitung gradient
     with tf.GradientTape() as tape:
         conv_outputs, predictions = grad_model(img_array)
 
-        # Pastikan pred_index berupa integer
         if pred_index is None:
-            pred_index = int(tf.argmax(predictions[0]).numpy())
+            pred_index = tf.argmax(predictions[0]).numpy()
+        else:
+            pred_index = np.array(pred_index)
+
+        # pastikan scalar
+        if isinstance(pred_index, (np.ndarray, list)):
+            pred_index = int(np.array(pred_index).item())
         else:
             pred_index = int(pred_index)
 
         class_channel = predictions[:, pred_index]
 
-    # Gradien dan pooling
     grads = tape.gradient(class_channel, conv_outputs)
     pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
 
-    # Buat heatmap dengan tensordot agar aman untuk shape
     conv_outputs = conv_outputs[0]  # (H, W, C)
     heatmap = tf.tensordot(conv_outputs, pooled_grads, axes=(2, 0))
 
-    # Normalisasi
     heatmap = tf.maximum(heatmap, 0)
     max_val = tf.reduce_max(heatmap) + tf.keras.backend.epsilon()
     heatmap /= max_val
@@ -53,16 +53,7 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name="block5_conv3", 
 def apply_heatmap_on_image(image: Image.Image, heatmap, alpha=0.4):
     """
     Overlay heatmap ke gambar asli.
-    
-    Args:
-        image: Gambar PIL.
-        heatmap: Heatmap 2D.
-        alpha: Transparansi heatmap.
-
-    Returns:
-        Image PIL dengan overlay heatmap.
     """
-    # Resize image dan heatmap
     image = image.resize((224, 224)).convert("RGB")
     img = np.array(image)
 
@@ -70,7 +61,6 @@ def apply_heatmap_on_image(image: Image.Image, heatmap, alpha=0.4):
     heatmap_resized = np.uint8(255 * heatmap_resized)
 
     heatmap_color = cv2.applyColorMap(heatmap_resized, cv2.COLORMAP_JET)
-
     superimposed_img = cv2.addWeighted(img, 1 - alpha, heatmap_color, alpha, 0)
 
     return Image.fromarray(superimposed_img)
