@@ -33,11 +33,13 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name="block5_conv3", 
     grads = tape.gradient(class_channel, conv_outputs)
     pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
 
-    # Buat heatmap
+    # Pastikan conv_outputs tensor, bukan list
     conv_outputs = conv_outputs[0]
-    heatmap = conv_outputs @ pooled_grads[..., tf.newaxis]
-    heatmap = tf.squeeze(heatmap)
-    heatmap = tf.maximum(heatmap, 0) / tf.math.reduce_max(heatmap + tf.keras.backend.epsilon())
+    conv_outputs = tf.convert_to_tensor(conv_outputs)
+
+    # Buat heatmap
+    heatmap = tf.tensordot(conv_outputs, pooled_grads, axes=(2, 0))
+    heatmap = tf.maximum(heatmap, 0) / (tf.reduce_max(heatmap) + tf.keras.backend.epsilon())
 
     return heatmap.numpy()
 
