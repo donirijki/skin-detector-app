@@ -18,30 +18,37 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name="block5_conv3", 
     """
     # Model Grad-CAM
     grad_model = tf.keras.models.Model(
-        [model.inputs], 
+        [model.inputs],
         [model.get_layer(last_conv_layer_name).output, model.output]
     )
 
     # Hitung gradient
     with tf.GradientTape() as tape:
         conv_outputs, predictions = grad_model(img_array)
+
+        # Pastikan pred_index berupa integer
         if pred_index is None:
-            pred_index = tf.argmax(predictions[0])
+            pred_index = int(tf.argmax(predictions[0]).numpy())
+        else:
+            pred_index = int(pred_index)
+
         class_channel = predictions[:, pred_index]
 
     # Gradien dan pooling
     grads = tape.gradient(class_channel, conv_outputs)
     pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
 
-    # Pastikan conv_outputs tensor, bukan list
-    conv_outputs = conv_outputs[0]
-    conv_outputs = tf.convert_to_tensor(conv_outputs)
-
-    # Buat heatmap
+    # Buat heatmap dengan tensordot agar aman untuk shape
+    conv_outputs = conv_outputs[0]  # (H, W, C)
     heatmap = tf.tensordot(conv_outputs, pooled_grads, axes=(2, 0))
-    heatmap = tf.maximum(heatmap, 0) / (tf.reduce_max(heatmap) + tf.keras.backend.epsilon())
+
+    # Normalisasi
+    heatmap = tf.maximum(heatmap, 0)
+    max_val = tf.reduce_max(heatmap) + tf.keras.backend.epsilon()
+    heatmap /= max_val
 
     return heatmap.numpy()
+
 
 def apply_heatmap_on_image(image: Image.Image, heatmap, alpha=0.4):
     """
@@ -64,7 +71,6 @@ def apply_heatmap_on_image(image: Image.Image, heatmap, alpha=0.4):
 
     heatmap_color = cv2.applyColorMap(heatmap_resized, cv2.COLORMAP_JET)
 
-    superimposed_img = heatmap_color * alpha + img
-    superimposed_img = np.clip(superimposed_img, 0, 255).astype(np.uint8)
+    superimposed_img = cv2.addWeighted(img, 1 - alpha, heatmap_color, alpha, 0)
 
     return Image.fromarray(superimposed_img)
